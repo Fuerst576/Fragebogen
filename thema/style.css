@@ -1,0 +1,80 @@
+body{
+    background-color: #00001f;
+    background-image: url("img/1377556044-1.jpeg");
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 30px;
+}
+
+h1{
+    margin: 10px 0px;
+    font-size: 50px;
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h3{
+margin: 10px;
+}
+
+
+form{
+    margin-bottom: 10px;
+
+
+}
+
+
+.h1{
+    margin: 20px 10px 50px 10px;
+}
+
+.submit{
+    margin: 20px 10px 50px 10px;
+}
+
+#box{
+    background-color: #ffffff;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.n{
+    margin: 10px;
+}
+
+
+img {
+    width: 300px;
+    margin: 5px;
+}
+
+.img-option {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.img-option input {
+    display: none; /* Radio-Button verstecken */
+}
+
+/* WENN Radio ausgewählt → Bild dunkler */
+.img-option input:checked + img {
+    filter: brightness(60%);
+}
+
+
+.vergleich{
+display: flex;
+}
+
+.vergleich > div{
+    margin: 0px 10px;
+}
